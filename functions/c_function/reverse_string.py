@@ -3,4 +3,3 @@ def reverse_string(string):
 
 print(reverse_string("hello"))   # olleh
 print(reverse_string("Python"))  # nohtyP
-

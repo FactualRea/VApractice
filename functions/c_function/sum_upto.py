@@ -7,4 +7,3 @@ def sum_upto(n):
 
 print(sum_upto(5))   # 15
 print(sum_upto(10))  # 55
-
