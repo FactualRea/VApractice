@@ -138,4 +138,3 @@ elif s % 3 == 0 or s % 5 == 0:
     print("either")
 else:
     print("neither")
-
