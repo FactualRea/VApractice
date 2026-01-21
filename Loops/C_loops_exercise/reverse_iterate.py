@@ -1,6 +1,6 @@
 def reverse_iterate(text):
-    for i in text:
-        print[::-1]
+    for i in range(len(text)-1, -1, -1):
+        print(text[i])
 
 reverse_iterate("carrot")
 # t
