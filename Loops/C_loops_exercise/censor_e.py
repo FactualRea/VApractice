@@ -1,11 +1,11 @@
 def censor_e(text):
-    sens = ""
+    cens = ""
     for i in text:
         if i == "e":
-            sens += "x"
+            cens += "x"
         else:
-            sens += i
-    print(sens)
+            cens += i
+    print(cens)
     
 censor_e("speedy")  #-> 'sp**dy'
 censor_e("pending") #-> 'p*nding'
