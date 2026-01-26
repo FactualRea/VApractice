@@ -1,7 +1,7 @@
 def reverse_array(arr):
     nl = []
-    for i in range(len(arr)-1, -1):
-        nl.append(i)
+    for i in range(len(arr)-1, -1, -1):
+        nl.append(arr[i])
     print(nl)
     
 reverse_array(["zero", "one", "two", "three"])# -> ['three', 'two', 'one', 'zero']
