@@ -1,9 +1,9 @@
 def maximum(numbers):
+    if len(numbers) == 0:
+        return None
     max_num = 0
     for num in numbers:
-        if len(numbers) == 0:
-            return None
-        elif max_num < num:
+        if max_num < num:
             max_num = num
     print(max_num)
 
