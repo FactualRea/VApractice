@@ -1,7 +1,3 @@
-# Write a function `make_matrix(m, n, value)` that returns a 2D list of m rows and n columns
-# filled with `value`.
-
-
 def make_matrix(m, n, value):
     matrix = []
     for i in range(m):
